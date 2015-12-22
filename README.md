@@ -54,26 +54,26 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 
 1.  Access the Shopify with Nexmo SMS using public URL.
 
-> <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image3.PNG" width="400">
+  <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image3.PNG" width="400">
 
 2.  Provide the correct Nexmo Key and Secret and click on **Validate**.
 3.  The below screen will be shown on the successful validation of Nexmo keys.
+    
+   <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image4.PNG" width="400">
 
-> <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image4.PNG" width="400">
+    - Select the **From Number** from the dropdown list.
 
-   - Select the **From Number** from the dropdown list.
+    - Set the **Threshold Value** in number. It will send an SMS when any order is greater or equal to the threshold value.
 
-   - Set the **Threshold Value** in number. It will send an SMS when any order is greater or equal to the threshold value.
+    - Set the **Store Name** of online store.
 
-   - Set the **Store Name** of online store.
+    - Set **Store Owner Mobile Number** where you want to receive the message when the threshold condition gets satisfied.
 
-   - Set **Store Owner Mobile Number** where you want to receive the message when the threshold condition gets satisfied.
-
-   -  Click on **Get** **Webhook.**
+    -  Click on **Get** **Webhook.**
 	   
 4.  Copy the webhook URLs which you want to integrate with Shopify events. 
-
-<img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image5.PNG" width="400">
+   
+    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image5.PNG" width="400">
 
 5.  You can edit the webhook URLs by clicking on **Back**
 
@@ -82,7 +82,7 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 ## Steps to use webhook URL
 1.  Login to the Shopify store admin section.
 
-    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image6.PNG" height="400">
+  <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image6.PNG" height="400">
 2.  Successful login will lead to a menu bar in the left side of the screen. Click on **Settings.**
 
     <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image7.PNG" heigth="400">
@@ -114,7 +114,7 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 2.  In the top right corner, click on **Api Settings.**
 3.  Key and Secret will display in the top bar as shown in the below image:
 
-> <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image12.jpeg">
+ <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image12.jpeg">
 
 ## Limitations
 
