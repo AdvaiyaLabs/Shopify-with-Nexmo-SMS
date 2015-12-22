@@ -61,19 +61,20 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 
 > <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image4.PNG" width="400">
 
-       -   Select the **From Number** from the dropdown list.
-	   
-       -   Set the **Threshold Value** in number. It will send an SMS when any order is greater or equal to the threshold value.
-	   
-       -   Set the **Store Name** of online store.
-	   
-       -   Set **Store Owner Mobile Number** where you want to receive the message when the threshold condition gets satisfied.
-	   
-       -   Click on **Get** **Webhook.**
+   - Select the **From Number** from the dropdown list.
+
+   - Set the **Threshold Value** in number. It will send an SMS when any order is greater or equal to the threshold value.
+
+   - Set the **Store Name** of online store.
+
+   - Set **Store Owner Mobile Number** where you want to receive the message when the threshold condition gets satisfied.
+
+   -  Click on **Get** **Webhook.**
 	   
 4.  Copy the webhook URLs which you want to integrate with Shopify events. 
 
 <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image5.PNG" width="400">
+
 5.  You can edit the webhook URLs by clicking on **Back**
 
 6.  Once you configure webhook URLs with your Shopify store, then the SMS will be sent according to the configured webhooks.
