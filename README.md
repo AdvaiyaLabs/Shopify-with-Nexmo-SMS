@@ -107,15 +107,15 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 
 1.  Login to the Shopify store admin section.
 
-    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image6.PNG" width="400">
+    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image6.PNG" height="400">
 
 2.  Successful login will lead to a menu bar in the left side of the screen. Click on **Settings.**
 
-    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image7.PNG" width="400">
+    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image7.PNG" heigth="400">
 
 3.  In the settings section, click on **Notifications.**
 
-    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image8.PNG" width="400">
+    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image8.PNG" heigth="400">
 
 4.  In the notification section, go to webhook section and scroll to the bottom.
 
@@ -135,7 +135,7 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 
 10. Once the webhook is created, you can test notifications by clicking **send test notification** and can remove the notification by clicking the delete icon.
 
-    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image11.PNG" width="400">
+    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image11.PNG" width="600">
 
 11. **send test notification** will not work for the order payment and the order delete event. It will work on live environment/test environment.
 
