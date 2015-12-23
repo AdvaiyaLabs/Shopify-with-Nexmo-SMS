@@ -4,7 +4,7 @@
 
 ## Introduction
 
-**Shopify with Nexmo SMS** app provides extended notification feature in Shopify. Shopify admin and customers can receive notifications on their mobile via SMS. Shopify with Nexmo SMS allows to send *order create, order fulfilment, order cancel, order delete* and *order payment* notifications via SMS to store admin and customers. Shopify admin can configure webhooks, which require SMS notification, and they can also set threshold amount so that the notification will only be sent if the order amount satisfies the threshold value.
+Shopify with [Nexmo SMS](https://nexmo.com/sms) app provides extended notification feature in Shopify. Shopify admin and customers can receive notifications on their mobile via SMS. Shopify with [Nexmo SMS](https://nexmo.com/sms) allows to send *order create, order fulfilment, order cancel, order delete* and *order payment* notifications via SMS to store admin and customers. Shopify admin can configure webhooks, which require SMS notification, and they can also set threshold amount so that the notification will only be sent if the order amount satisfies the threshold value.
 
 ## Use Case
 
@@ -12,7 +12,7 @@ SMS to Store Owner when any new order isÂ placed or an order status is changedÂ 
 
 Whenever any new order is placed by the customer, the app will immediately send an SMS to the owner with the order id and the total order amount. The SMS should be sent by the app only when the order amount is more than the specified amount threshold.
 
-Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â 
+Shopify with [Nexmo SMS](https://nexmo.com/sms) will send SMS on the occurrence of the following events:Â 
 
 1.  **Order Create**:Â Â 
     1.  **For Store Owner:** The order &lt;&lt;order\_number&gt;&gt; is created of &lt;&lt;amount&gt;&gt; by &lt;&lt;first\_nameÂ last\_name&gt;&gt;.Â 
@@ -30,7 +30,7 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 ## Prerequisites 
 
 -   Shopify Store account
--   Nexmo subscription and corresponding Nexmo API keys (Keys and Secret). To access the API keys, see appendix section.
+-   [Nexmo](https://nexmo.com/) subscription and corresponding Nexmo API keys (Keys and Secret). To access the API keys, see appendix section.
 -   Host with LAMP installed
 
 ## Features
@@ -41,7 +41,7 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 
 ## Steps to deploy Shopify with Nexmo SMS
 
-1.  Go to the [***```https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS.git```***](https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS.git) to download the app code, as shown below:
+1.  Go to the [**```https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS.git```**](https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS.git) to download the app code, as shown below:
 
     <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image2.png" width="400">
 
@@ -52,11 +52,11 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 
 ## Create Webhook URL using Shopify with Nexmo SMS
 
-1.  Access the Shopify with Nexmo SMS using public URL.
+1.  Access the Shopify with [Nexmo SMS](https://nexmo.com/sms) using public URL.
 
   <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image3.PNG" width="400">
 
-2.  Provide the correct Nexmo Key and Secret and click on **Validate**.
+2.  Provide the correct [Nexmo](https://nexmo.com/) Key and Secret and click on **Validate**.
 3.  The below screen will be shown on the successful validation of Nexmo keys.
     
    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image4.PNG" width="400">
@@ -110,7 +110,7 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 ### Nexmo API Keys
 
 
-1.  Login to Nexmo.
+1.  Login to [Nexmo](https://nexmo.com/).
 2.  In the top right corner, click on **Api Settings.**
 3.  Key and Secret will display in the top bar as shown in the below image:
 
@@ -118,4 +118,4 @@ Shopify with Nexmo SMS will send SMS on the occurrence of the following events:Â
 
 ## Limitations
 
--   Shopify with Nexmo SMS is hosted on your server, so the webhook cannot be created automatically.
+-   Shopify with [Nexmo SMS](https://nexmo.com/sms) is hosted on your server, so the webhook cannot be created automatically.
