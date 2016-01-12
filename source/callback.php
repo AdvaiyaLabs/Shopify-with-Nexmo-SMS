@@ -5,7 +5,7 @@
 	if($_GET && isset($_GET["query"])){
 	
 	$query=	$_GET["query"];
-	$variablesArr = explode("$#$",base64_decode($query));
+	$str = explode("$#$",base64_decode($query));
     
 	}
 	else{
@@ -17,26 +17,24 @@
      
 	
 	 
-	 $framework = $variablesArr[0];
+	 $framework = $str[0];
 	 if($framework == "shopify"){
 
 	    
 		$request=getallheaders();
-		
-		//this header will check requests from shopify
 		if(!isset($request["X-Shopify-Hmac-Sha256"]))
 		{
 			echo json_encode("{'error':'Untrusted source'}");
 			exit;
 		}
 		
-		$event = $variablesArr[1];
-		$key = $variablesArr[2];
-		$secret = $variablesArr[3];
-		$from = $variablesArr[4];
-		$threshold = $variablesArr[5];
-		$storename = $variablesArr[6];
-		$ownerno = $variablesArr[7];	
+		$event = $str[1];
+		$key = $str[2];
+		$secret = $str[3];
+		$from = $str[4];
+		$threshold = $str[5];
+		$storename = $str[6];
+		$ownerno = $str[7];	
 		$data = json_decode(file_get_contents('php://input'), true);
 		$shop=new Shopify(); 
 		 echo $shop->handler($event,$key,$secret,$from,$data,$threshold,$storename,$ownerno);

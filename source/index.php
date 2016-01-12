@@ -14,7 +14,7 @@
 	?>
 <html>
   <head>
-	<title>Shopify with Nexmo SMS</title>
+    <title>NexmoUpdate</title>
    
   
 	<link rel="stylesheet" type="text/css" href="resources/Configuration.css">
@@ -28,37 +28,37 @@
 	
   </head>
   <body>
-	<div class="logoWrapper" align="center"><img src="resources/images/logo.png" alt="Nexmo" width="200"><p class="heading1">Configuration Settings</p></div>
+  	<div class="logoWrapper" align="center"><img src="resources/images/logo.png" alt="Nexmo" width="200"><p class="heading1">Configuration Settings</p></div>
 	
-		<div id="msgbox" class="fieldLabel">
-			<div id="upm-base-url-invalid" class="aui-message error hidden">
-			<span class="aui-icon icon-error"></span>
-		   
-		</div><span class="aui-icon icon-error"></span>
-			<p id="error" name="error" align="center"></p>
-	   </div> 
+   <div id="msgbox" class="fieldLabel">
+            <div id="upm-base-url-invalid" class="aui-message error hidden">
+            <span class="aui-icon icon-error"></span>
+           
+        </div><span class="aui-icon icon-error"></span>
+            <p id="error" name="error" align="center"></p>
+       </div> 
   <div id="defaults" class="pageWrapper">
-	
+ 	
  
-	
+ 	
  
-	<div class="mainContent">
-	
-	<form id="admin" class="aui">
-	 
-	
-	<div id="fromfields">
-	
-	 <div class="mb-20">
+  	<div class="mainContent">
+  	
+    <form id="admin" class="aui">
+     
+    
+    <div id="fromfields">
+    
+   	 <div class="mb-20">
 				<div class="fieldLabel">Nexmo Key <span class="handCursor"></span></div>
 				<div>
 					 <input id="key" name="key"  type="text" class="customTxtBox" />
 				</div>
 				<div class="errorLabel" id="errorkey">Please enter the Nexmo Key<span class="handCursor"></span></div>
 	</div>
-	
-	
-	<div class="mb-20">
+    
+    
+    <div class="mb-20">
 				<div class="fieldLabel">Nexmo Secret <span class="handCursor"></div>
 				<div>
 					 <input id="secret" name="secret" type="text" class="customTxtBox" />
@@ -75,8 +75,8 @@
 				<div class="fieldLabel">From Number<span class="handCursor"></div>
 				<div>
 					<select class="customdropdown"  name="fromNumbers" id="fromNumbers">
-					  </select></br>
-					  
+		              </select></br>
+		              
 				</div>
 					<div class="errorLabel" id="errorfrom">Please select valid From Number<span class="handCursor"></span></div>
 	</div>
@@ -106,20 +106,20 @@
 				<div class="errorLabel" id="errormobile">Please enter the Store Owner Mobile Number<span class="handCursor"></span></div>
 				
 	</div>
+            
 			
-			
+          
 		  
-		  
 			
 			
-			
-		   <div>  <input class="blueBtn" id="genwebhook" type="button" value="Get Webhook"></div>
-	</div>
-			
-			
-			
-	</div>
-		<div id="webhooks">
+            
+           <div>  <input class="blueBtn" id="genwebhook" type="button" value="Get Webhook"></div>
+            </div>
+            
+            
+            
+            </div>
+        <div id="webhooks">
 			
 			<div class="mb-20">
 				<div class="fieldLabel">Order Creation  <span class="handCursor"></div>
@@ -164,59 +164,59 @@
 			</div>
 			
 		</div>
-			
-			  <table class="tableStyle">
-			 <tr>
-			   
-				<td class="auto-style1">
-					
-				</td>
-			</tr>
-			
-			
-			<tr id="messagecreate"> 
-			 <td class="auto-style2">
-				  
-				</td>
-				
-				<td  class="auto-style2">   <input type="hidden" id="pagecreateeventmessage" name="pagecreateeventmessage">  </td>
-			</tr>
-		   
-			
-			 
-			
-			
-			
-			<tr id="messageupdate">
-			
-			<td class="auto-style2">
-				   
-				</td>
-				
-				<td  class="auto-style2">   <input type="hidden" id="pageupdateeventmessage" name="pageupdateeventmessage">  </td>
-			</tr>
-			
-		
-			 <tr>
-				
-				<td class="auto-style1">
-					<input id="fromuser" name="fromuser" type="hidden" />
-				</td>
-			</tr>
-		</table>
-	
-	
-	 
-	</form>
+            
+              <table class="tableStyle">
+             <tr>
+               
+                <td class="auto-style1">
+                    
+                </td>
+            </tr>
+            
+            
+            <tr id="messagecreate"> 
+             <td class="auto-style2">
+                  
+                </td>
+                
+                <td  class="auto-style2">   <input type="hidden" id="pagecreateeventmessage" name="pagecreateeventmessage">  </td>
+            </tr>
+           
+            
+             
+            
+            
+            
+            <tr id="messageupdate">
+            
+            <td class="auto-style2">
+                   
+                </td>
+                
+                <td  class="auto-style2">   <input type="hidden" id="pageupdateeventmessage" name="pageupdateeventmessage">  </td>
+            </tr>
+            
+     	
+             <tr>
+                
+                <td class="auto-style1">
+                    <input id="fromuser" name="fromuser" type="hidden" />
+                </td>
+            </tr>
+        </table>
+    
+    
+     
+    </form>
 	</div>
 </div>
 
 <div id="progressSpinner" style="z-index:1000;position:absolute; top: 45%;left: 45%; background:rgba(255,255,255,1) none repeat scroll 0% 0%; padding: 20px;overflow:auto;border:1px solid; display: block; background-color: #0D6F91; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: small; font-weight: bold; color: #333399; display:none">
-		
+        
 		<p id="progressText">
 		<img src="resources/images/ajax-loader.gif">
 		
-		</p>
-	</div>
+        </p>
+    </div>
   </body>
 </html>
