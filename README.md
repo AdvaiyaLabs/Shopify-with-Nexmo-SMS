@@ -41,7 +41,7 @@ Shopify with [Nexmo SMS](https://nexmo.com/sms) will send SMS on the occurrence 
 
 ## Steps to deploy Shopify with Nexmo SMS
 
-1.	Visit the target Git repository using the [ URL ] (https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/package/zendesk_with_nexmo_sms.zip).
+1.	Visit the target Git repository using the [ URL ] (https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/package/NexmoUpdate_for_Shopify.zip).
 
 2.  Click on **Raw** as shown, app's zip file will get downloaded.
 
