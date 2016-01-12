@@ -53,7 +53,7 @@ Shopify with [Nexmo SMS](https://nexmo.com/sms) will send SMS on the occurrence 
 
 ## Create Webhook URL using Shopify with Nexmo SMS
 
-1.  Access the Shopify with [Nexmo SMS](https://nexmo.com/sms) using public URL as mentioned above.
+1.  Access the Shopify with [Nexmo SMS App](https://nexmo.com/sms) using public URL as explained above.
 
   <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image3.PNG" width="400">
 
