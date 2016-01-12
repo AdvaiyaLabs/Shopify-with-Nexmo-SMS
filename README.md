@@ -41,18 +41,19 @@ Shopify with [Nexmo SMS](https://nexmo.com/sms) will send SMS on the occurrence 
 
 ## Steps to deploy Shopify with Nexmo SMS
 
-1.  Go to the [**```https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS.git```**](https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS.git) to download the app code, as shown below:
+1.	Visit the target Git repository using the [ URL ] (https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/package/zendesk_with_nexmo_sms.zip).
 
-    <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image2.png" width="400">
+2.  Click on **Raw** as shown, app's zip file will get downloaded.
 
-2.  Download the package by clicking on **Download ZIP.**
+	<img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image19.png" width="300">
+	
 3.  Extract the app code.
 4.  Host the downloaded app code using ftp or any other medium.
 5.  The hosted code must be accessible publically as internal and localhost will not work for this app.
 
 ## Create Webhook URL using Shopify with Nexmo SMS
 
-1.  Access the Shopify with [Nexmo SMS](https://nexmo.com/sms) using public URL.
+1.  Access the Shopify with [Nexmo SMS](https://nexmo.com/sms) using public URL as mentioned above.
 
   <img src="https://github.com/AdvaiyaLabs/Shopify-with-Nexmo-SMS/blob/master/docs/image3.PNG" width="400">
 
